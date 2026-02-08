@@ -27,6 +27,8 @@ UI screens, backend APIs, database schemas, and tech stack recommendations.
 ### FastAPI Server Running
 ![FastAPI Running](screenshots/api-running.png)
 
+---
+
 ## 🏗️ Architecture Overview
 
 User Input
@@ -63,7 +65,6 @@ app-blueprint-generator/
 ├── requirements.txt
 └── README.md
 
-
 ---
 
 ## ▶️ How to Run
@@ -76,25 +77,13 @@ uvicorn api.main:app --reload
 Visit:
 http://127.0.0.1:8000/docs
 
-⚠️ Notice:  
-- Commands are **only commands**
-- No explanation inside the code block
-
----
-
-```md
-## 🎯 Why This Project Matters
-
+🎯 Why This Project Matters
 This project simulates real-world AI platform engineering by:
-
-- Converting unstructured natural language into structured system designs
-- Validating AI-generated outputs before execution
-- Exposing AI logic through production-style FastAPI endpoints
-
+Converting unstructured natural language into structured system designs
+Validating AI-generated outputs before execution
+Exposing AI logic through production-style FastAPI endpoints
+👩‍💻 Author
+Srishti Sindgi
+GitHub: https://github.com/sindgisrishtis
 
 ---
-
-## 👩‍💻 Author
-
-**Srishti Sindgi**  
-GitHub: https://github.com/sindgisrishtis
