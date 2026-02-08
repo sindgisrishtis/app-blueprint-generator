@@ -51,7 +51,7 @@ FastAPI Endpoint
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 app-blueprint-generator/
 ├── generator/ # NLP & blueprint generation
@@ -59,7 +59,10 @@ app-blueprint-generator/
 ├── api/ # FastAPI service
 ├── tests/ # Basic tests
 ├── examples/ # Sample inputs
+├── screenshots/ # Demo screenshots
+├── requirements.txt
 └── README.md
+
 
 ---
 
@@ -72,14 +75,26 @@ pip install -r requirements.txt
 uvicorn api.main:app --reload
 Visit:
 http://127.0.0.1:8000/docs
-🎯 Why This Project Matters
-This project simulates real-world AI platform engineering by:
-Converting unstructured input into structured system design
-Validating AI outputs before execution
-Exposing AI logic via production-style APIs
+
+⚠️ Notice:  
+- Commands are **only commands**
+- No explanation inside the code block
 
 ---
 
-## Author
+```md
+## 🎯 Why This Project Matters
+
+This project simulates real-world AI platform engineering by:
+
+- Converting unstructured natural language into structured system designs
+- Validating AI-generated outputs before execution
+- Exposing AI logic through production-style FastAPI endpoints
+
+
+---
+
+## 👩‍💻 Author
+
 **Srishti Sindgi**  
 GitHub: https://github.com/sindgisrishtis
